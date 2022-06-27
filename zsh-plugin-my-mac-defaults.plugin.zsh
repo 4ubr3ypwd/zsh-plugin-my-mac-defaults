@@ -22,7 +22,7 @@ setopt no_monitor
 	defaults write com.apple.TextEdit SmartDashes -bool false
 	defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 	defaults write com.apple.screencapture location "$HOME/Pictures/Screenshots"
-	defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+	defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 	defaults write com.apple.Finder QuitMenuItem 1 # Add quit to Finder
 	defaults write com.apple.dock springboard-columns -int 7
 	defaults write com.apple.dock springboard-rows -int 7 # Launchpad Grid
